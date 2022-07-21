@@ -2,6 +2,8 @@ package me.whiteship.designpatterns._01_creational_patterns._01_singleton;
 
 /**
  * static inner 클래스 홀더
+ *
+ * 권장하는 방법 중 하나
  */
 public class Settings4 {
 
