@@ -19,6 +19,10 @@ public class App {
 
         repository.setUser("Keesun");
 
+        /**
+         * clone의 종류 shallow Copy, Deep Copy
+         * */
+
         System.out.println(clone != githubIssue);
         System.out.println(clone.equals(githubIssue));
         System.out.println(clone.getClass() == githubIssue.getClass());

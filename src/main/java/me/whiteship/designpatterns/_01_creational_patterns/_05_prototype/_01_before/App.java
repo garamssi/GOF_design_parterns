@@ -13,6 +13,12 @@ public class App {
 
         String url = githubIssue.getUrl();
         System.out.println(url);
+
+        /**
+         * GithubIssue clone = githubIssue.clone();
+         * clone != githubIssue -> false 레퍼런스 비교
+         * clone.equals(githubIssue) -> true 값비교
+         * */
     }
 
 }
