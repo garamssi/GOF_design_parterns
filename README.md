@@ -87,4 +87,26 @@ http://modelMapper.org
   * 기존 코드가 하던 일과 특정 인터페이스 구현체로 변환하는 작업을 각기 다른 클래스로 분리하여 관리할 수 있다.
 - 단점
   * 새 클래스가 생겨 복잡도가 증가할 수 있다. 경우에 따라서는 기존 코드가 해당 인터페이스를 구현하도록 수정하는 것이 좋은 선택이 될 수도 있다.
-  * 
+```
+* 자바 
+ - java.util.Arrays#asList(T..)
+ - java.util.Collections#list, java.util.Collection#enumeration()
+ - java.io.InputStreamReader(InputSream)
+ - java.io.OutputStreamWriter(OutputStream)
+* 스프링
+ - HandlerAdpter : 우리가 작성하는 다양한 형태의 핸들러 코드를 스프링 MVC가 실행할 수 있는 형태로 변환해주는 어탭터용 인터페이스.
+```
+
+
+---
+   
+#### 2. Bridge 패턴
+- 추상적인 것과 구체적인 것을 분리하여 연결하는 패턴
+  * 하나의 계층 구조일 떄 보다 각기 나누었을 때 독립적인 계층 구조로 발전 시킬 수 있다.
+  
+- 장점
+  * 추상적인 코드를 쿠체적인 코드 변경 없이도 독립적으로 확장할 수 있다.
+  * 추상적인 코드와 구체적인 코드를 분리할 수 있다.
+- 단점 
+  * 계층 구조가 늘어나 복잡도가 증가할 수 있다.
+  
