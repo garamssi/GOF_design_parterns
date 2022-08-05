@@ -13,6 +13,11 @@ public class PostfixNotation {
     public static void main(String[] args) {
         PostfixNotation postfixNotation = new PostfixNotation("123+-");
         postfixNotation.calculate();
+
+        // TODO 1 + 2 - 5
+        /**
+         *
+         * */
     }
 
     private void calculate() {
